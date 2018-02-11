@@ -1,0 +1,79 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+.header {
+	background: #d3321d; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #d3321d 0%, #890a09 40%, #890a09 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #d3321d 0%,#890a09 40%,#890a09 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #d3321d 0%,#890a09 40%,#890a09 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d3321d', endColorstr='#890a09',GradientType=1 );
+height: 100vh;
+}
+.snowfall {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: url('../img/snowfall.png');	
+	opacity: 0.59;
+}
+.bones {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: url(../img/bones.png);
+}
+.snow1 {
+	background: url(../img/snow1.png) repeat center top;
+	width: 100%;
+	height: 424px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.snow2 {
+	background: url(../img/snow2.png) repeat center top;
+	width: 100%;
+	height: 424px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.santa {
+	background: url(../img/santa-dogs.png) no-repeat center top;
+	width: 1064px;
+	height: 508px;
+	position: absolute;
+	left: 50%;
+	margin-left: -532px;
+	bottom: 10px;
+}
+.logo {
+	background: url(../img/logo.png) no-repeat center top;
+	height: 115px;
+	width: 204px;
+	top: 10%;
+	padding-top: 95px;
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	margin-left: -102px;
+	color: #f9f976;
+	font-style: 18px;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 0.12em;
+}
+.text {
+	background: url(../img/text.png);
+	width: 930px;
+	height: 302px;
+	position: absolute;
+	left: 50%;
+	margin-left: -465px;
+	top: 50%;
+	margin-top: -230px;
+}
